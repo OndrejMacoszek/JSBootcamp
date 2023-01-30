@@ -47,7 +47,6 @@ class UsersRepository {
   async comparePasswords(saved, supplied) {
     const [hashed, salt] = saved.split(".");
     const hashedSuppliedBuf = await scrypt(supplied, salt, 64);
-    console.log(hashedSuppliedBuf.toString("hex"), " saved", hashed);
     return hashed === hashedSuppliedBuf.toString("hex");
   }
 

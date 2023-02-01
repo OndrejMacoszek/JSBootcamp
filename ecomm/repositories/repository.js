@@ -20,7 +20,7 @@ module.exports = class Repository {
 
     const records = await this.getAll();
     records.push(attributes);
-    await this.writeAll();
+    await this.writeAll(records);
 
     return attributes;
   }

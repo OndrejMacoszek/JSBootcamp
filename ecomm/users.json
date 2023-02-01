@@ -33,5 +33,10 @@
     "email": "test5@hovno.com",
     "password": "eb2f906720333e8611910ff21723f04a54e71dc578749977e46fcf0ad4e060a07b8a6b4930073445985ec69610d7f490c80b0fd38e8390acf0ada3dbae9e552f.f736b0ec9984c362",
     "id": "bfa25dfd"
+  },
+  {
+    "email": "test666@test.com",
+    "password": "cd6d5e0a7b093f2e767d26b421e60a97b92489561c0a0119c2736dd837b6dc930caf3bd4a0433e3e59704f9201a8b32a851850f5a5ee90a5824a604abfa20012.8896a76a8613e28e",
+    "id": "f478caba"
   }
 ]

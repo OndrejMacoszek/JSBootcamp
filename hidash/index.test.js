@@ -1,6 +1,8 @@
 const { forEach, map } = require("./index");
 const assert = require("assert");
 
+//for mocha to work change function calls of test to it
+
 const test = (desc, fn) => {
   console.log("----", desc);
   try {
